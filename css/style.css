@@ -244,7 +244,9 @@ a {
     justify-content: space-between;
   }
   .port-folio .expertise {
+    display: block;
     box-shadow: none;
+    height: auto;
     width: 80%;
   }
   .port-folio .expertise p {
@@ -281,9 +283,8 @@ a {
   .contact-me .input input {
     width: 100%;
   }
-  .contact-me .input input .button {
-    width: 15px;
-    margin: 0 auto;
+  .contact-me .input input[type="submit"] {
+    width: 40%;
     text-align: center;
   }
 }

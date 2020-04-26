@@ -257,7 +257,9 @@ a {
     width: 100%;
     justify-content: space-between;
     .expertise {
+      display: block;
       box-shadow: none;
+      height: auto;
       width: 80%;
       p {
         font-size: 1rem;
@@ -292,11 +294,10 @@ a {
       margin-top: 20px;
       input {
         width: 100%;
-        .button {
-          width: 15px;
-          margin: 0 auto;
-          text-align: center;
-        }
+      }
+      input[type="submit"] {
+        width: 40%;
+        text-align: center;
       }
     }
   }

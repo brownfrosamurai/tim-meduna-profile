@@ -64,7 +64,7 @@ body {
   letter-spacing: 8px;
 }
 .ptext .border {
-  border: 2px solid;
+  /* border: px solid ; */
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
