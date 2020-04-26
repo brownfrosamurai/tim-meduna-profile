@@ -49,25 +49,6 @@ a {
   padding-top: 5rem;
   height: auto;
 }
-.nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  color: #333;
-  .navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    .nav-link {
-      padding: 5px;
-      a {
-        color: #000;
-        text-transform: uppercase;
-        text-decoration: none;
-      }
-    }
-  }
-}
 .projects {
   @include grid3();
   height: auto;

@@ -78,4 +78,7 @@ body {
   .pimage4 {
     background-attachment: scroll;
   }
+  .img {
+    width: 60%;
+  }
 }
