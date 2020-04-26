@@ -62,14 +62,25 @@ body {
   z-index: 100;
   letter-spacing: 8px;
 }
+.imgText {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  z-index: 100;
+  letter-spacing: 8px;
+}
 .ptext .border {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
 }
-
 .img {
-  width: 25%;
+  margin-top: 0;
+  width: 30%;
 }
 @media (max-width: 600px) {
   .pimage1,
