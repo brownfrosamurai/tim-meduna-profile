@@ -1,6 +1,5 @@
 body {
   height: 100% !important;
-  /* line-height: 1.8em; */
   box-sizing: border-box;
 }
 .pimage1,
@@ -54,7 +53,7 @@ body {
 }
 .ptext {
   position: absolute;
-  top: 50%;
+  top: 45%;
   width: 100%;
   text-align: center;
   font-size: 2rem;
@@ -64,10 +63,13 @@ body {
   letter-spacing: 8px;
 }
 .ptext .border {
-  /* border: px solid ; */
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 10px 20px;
+}
+
+.img {
+  width: 25%;
 }
 @media (max-width: 600px) {
   .pimage1,
