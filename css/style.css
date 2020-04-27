@@ -44,7 +44,7 @@ a {
   align-items: center;
   height: auto;
   box-shadow: none;
-  width: 100%;
+  width: 90%;
 }
 .projects .project {
   width: 80%;
@@ -64,6 +64,10 @@ a {
   padding: 5px 10px;
   border: #999 1px solid;
   box-shadow: #000 2px 2px 2px;
+}
+.projects .project a:hover {
+  background-color: rgba(153, 153, 153, 0.233);
+  color: #000;
 }
 .projects .project div {
   margin-top: 2rem;
@@ -156,7 +160,7 @@ a {
 }
 .contact-me .input {
   display: block;
-  margin: 2rem 0;
+  margin: 0.5rem 0;
   padding: 0 1.2rem;
 }
 .contact-me .input textarea {
