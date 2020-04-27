@@ -57,7 +57,7 @@ a {
 }
 .projects .project img {
   width: 100%;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 .projects .project a {
   font-size: 1rem;
@@ -121,13 +121,13 @@ a {
 .port-folio .expertise hr {
   margin: 0 auto;
   color: #333;
-  width: 150px;
+  width: 100px;
   margin: 10px auto;
 }
 .port-folio .expertise p {
   text-align: left;
   font-size: 14px;
-  padding-left: 2rem;
+  padding: 0 2rem;
 }
 .port-folio .expertise li {
   text-align: left;
