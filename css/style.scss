@@ -213,15 +213,16 @@ a {
     }
     textarea {
       width: 100%;
+      padding: 5px;
     }
   }
 }
 .social {
   display: block;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 10px;
   a {
-    padding: 30px 40px 0;
+    padding: 10px 20px 0;
     cursor: pointer;
     font-size: 1.5rem;
   }
@@ -276,8 +277,12 @@ a {
       input {
         width: 100%;
       }
+      textarea {
+        padding: 5px;
+      }
       input[type="submit"] {
         width: 40%;
+        padding: 5px;
         text-align: center;
       }
     }

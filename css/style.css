@@ -203,14 +203,15 @@ a {
 }
 .contact-me input[type="submit"] textarea {
   width: 100%;
+  padding: 5px;
 }
 .social {
   display: block;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 .social a {
-  padding: 30px 40px 0;
+  padding: 10px 20px 0;
   cursor: pointer;
   font-size: 1.5rem;
 }
@@ -264,8 +265,12 @@ a {
   .contact-me .input input {
     width: 100%;
   }
+  .contact-me .input textarea {
+    padding: 5px;
+  }
   .contact-me .input input[type="submit"] {
     width: 40%;
+    padding: 5px;
     text-align: center;
   }
 }
