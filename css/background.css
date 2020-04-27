@@ -8,6 +8,7 @@ body {
 .pimage4 {
   position: relative;
   opacity: 0.89;
+  color: #fff;
   background-position: top;
   background-size: cover;
   z-index: -10;
@@ -26,18 +27,16 @@ body {
 .pimage2 {
   background-image: url("../images/tim-meduna-about-me.JPG");
   min-height: 550px;
-  color: #fff;
   width: 100%;
 }
 .pimage3 {
   background-image: url("../images/tim-meduna-superpowers-bg.jpg");
   min-height: 450px;
-  color: #fff;
   width: 100%;
 }
 .pimage4 {
   background-image: url("../images/tim-meduna-contact.jpg");
-  min-height: 500px;
+  min-height: 450px;
   width: 100%;
 }
 .light-bg {
@@ -75,7 +74,7 @@ body {
 }
 .ptext .border {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 10px 20px;
 }
 .img {

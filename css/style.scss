@@ -37,6 +37,9 @@ h3 {
   text-transform: uppercase;
   text-align: center;
 }
+li {
+  list-style-type: none;
+}
 a {
   color: #999;
   text-decoration: none;
@@ -94,25 +97,24 @@ a {
   }
 }
 .port-folio {
-  @include grid3();
+  display: block;
   width: 90%;
-  grid-gap: 50px;
-  grid-auto-rows: minmax(70vh, auto);
   margin: 0 auto;
-  padding: 4rem 0;
+  padding-bottom: 4rem;
   box-shadow: none;
   height: auto;
   .expertise {
-    height: 75vh;
+    @include grid2();
+    min-height: 300px;
     border-top: 1px solid #999;
     box-shadow: 0 5px 5px #000;
-    padding: 2rem;
-    text-align: start;
-    width: 90%;
+    padding-top: 3rem;
+    grid-gap: 20px;
+    width: 100%;
     .img {
-      margin: 0 auto;
-      width: 50%;
-      height: auto;
+      width: 70%;
+      box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.246);
+      height: 100%;
       img {
         width: 100%;
       }
@@ -125,46 +127,40 @@ a {
     hr {
       margin: 0 auto;
       color: #333;
-      width: 50px;
-      margin-top: 10px;
-      margin-bottom: 10px;
+      width: 150px;
+      margin: 10px auto;
     }
     p {
       text-align: left;
       font-size: 14px;
-      padding: 2px;
-    }
-    #coming-soon {
-      text-align: left;
-      padding: 10px;
-      display: block;
-      font-size: 3rem;
-      line-height: 100%;
+      padding-left: 2rem;
     }
     li {
       text-align: left;
-
-      list-style-type: square;
+      list-style-type: none;
+      padding-left: 2rem;
       font-size: 13px;
     }
     ul {
       padding: 6px;
-      margin-left: 2rem;
+      margin-left: 1rem;
     }
+  }
+  .expertise:nth-child(even) {
+    order: 2;
   }
 }
 .contact-me {
   width: 60%;
   margin: 0 auto;
   height: auto;
-  box-shadow: 0 5px 5px 5px #000;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.246);
   border-top: 1px solid #999;
   padding-bottom: 0.5rem;
   text-align: center;
   h2 {
     margin-bottom: 3rem;
   }
-
   .input {
     display: block;
     margin: 2rem 0;
@@ -174,11 +170,10 @@ a {
       width: 100%;
       color: #000;
     }
-
     input {
       display: block;
       text-align: left;
-      padding: 0 5px;
+      padding-left: 5px;
       color: #fff;
       margin: 0 auto;
       width: 100%;
@@ -203,7 +198,7 @@ a {
     text-transform: uppercase;
     border-radius: 5px;
     background-color: inherit;
-    box-shadow: 2px 2px 2px #000;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.246);
     color: #999;
     cursor: pointer;
     &:hover {
@@ -243,6 +238,12 @@ a {
       box-shadow: none;
       height: auto;
       width: 80%;
+      .img {
+        display: block;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 10px;
+      }
       p {
         font-size: 1rem;
       }
