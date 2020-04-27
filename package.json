@@ -1,0 +1,19 @@
+{
+  "name": "tim-meduna-profile",
+  "version": "1.0.0",
+  "description": "tim-meduna-portfolio-profile",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brownfrosamurai/tim-meduna-profile.git"
+  },
+  "author": "brownfrosamurai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brownfrosamurai/tim-meduna-profile/issues"
+  },
+  "homepage": "https://github.com/brownfrosamurai/tim-meduna-profile#readme"
+}
